@@ -1,0 +1,68 @@
+__________________________________________________
+COVFEFE
+Opportune
+VPN
+For
+Encrypted
+F2F
+Exchanges
+
+covfefe.me
+
+
+Performance? Webassembly?
+
+
+--------------------------------------------
+Twitter/ Txt/ Chat replacement
+------------------------------------------------------------------------------------------------
+
+Max decentralized P2P
+
+Local logs (std web storage is 5MiB only) - implement local app.
+
+Socket.io so that users can do P2P seemlessly from browser.
+
+WebSocket is (was?) always TCP
+https://github.com/facundofarias/awesome-websockets.git
+
+If Trump is booted from Twitter/ needs an alt twitter platform, he has X millions of followers who subscribe to him.
+
+centralization = censorship, ddos, crack target, user db target etc
+	- stolen domains (e.g. dailstormer.com etc)
+	- ddos to "encourage" hosting and running server behind cloudflare
+
+https://en.wikipedia.org/wiki/Port_Control_Protocol
+
+"tweets", activity streams, 
+
+id, multiple IDs, choosing which data to share with friends
+
+all data local
+
+cryptobox udp
+
+self certifying messages/tweets etc - i.e. decentral auth
+
+when I want to subscribe, by default target id (e.g. a YAML snippet) should have a proxy, so that X millions don't target Trump's mobile phone with subscription requests
+
+A user with a popular tweet could "go viral" in a matter of hours, and have millions want to follow them; so really, EVERYone needs a subscription proxy - this is just a queue
+
+new friend:
+	- email
+	- phone number + text message
+	- QR code on mobile ph display, photograph
+
+ID means minimum priv/pub key, +nick
+
+IDs need to be icons on the desktop/ phone - so user keeps them properly separated
+	- install app
+	- create IDs
+	- creates e.g. desktop icon per ID
+	- open/ double click app icon, opens web tab - this is one optional interface
+	- app can have own interface
+
+event based, YAML messages
+each even stored locally, full history, optionally encrypted
+trusted friends/ trust level
+

@@ -1,0 +1,7 @@
+
+
+https://en.wikipedia.org/wiki/Port_Control_Protocol
+
+friends don't drop connections without warning (where possible) - Covfefe provides a standard shutdown protocol where the user gives notice to peers of shutdown time - shortest is say 10 seconds, preferable is say 10 minutes;
+friends/peers who receive "link shutdown" notice, can send a request asking e.g. "please give me 30 minutes" or etc.
+

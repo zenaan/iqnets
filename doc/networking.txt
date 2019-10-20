@@ -1,0 +1,8 @@
+How to avoid traffic shaping etc:  https://wiki.vuze.com/
+
+
+Packages:
+libnetty-java
+libnetty-reactive-streams-java
+libnetty-tcnative-java  <<<<<<<<<<------------ contributions by Twitter Inc
+

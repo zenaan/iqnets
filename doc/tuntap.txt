@@ -1,0 +1,10 @@
+
+
+
+TUN/TAP
+https://stackoverflow.com/questions/12101919/how-do-i-open-a-tun-device-created-with-ip-tuntap
+https://github.com/elitak/p2pvpn/blob/master/src/main/java/org/p2pvpn/tuntap/TunTap.java
+https://github.com/lucwillems/JavaLinuxNet
+https://developpaper.com/creating-tap-tun-devices-with-ip-tuntap-and-tunctl-as-detailed-in-linux-network-tools/
+http://backreference.org/2010/03/26/tuntap-interface-tutorial/
+

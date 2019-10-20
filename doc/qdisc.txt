@@ -1,0 +1,16 @@
+
+There's one bit I'm not clear on though - queueing/ shaping/ QoSing a
+few 1000 connections.
+
+
+
+Queueing disciplines:
+ - A Framework for Alternate Queueing: Towards Traffic Management by PC-UNIX Based Routers
+	https://www.usenix.org/legacy/publications/library/proceedings/lisa97/failsafe/usenix98/full_papers/cho/cho_html/cho.html
+
+ - What is the difference between Queueing Discipline ?
+	https://forum.dd-wrt.com/phpBB2/viewtopic.php?p=749087
+
+ - 
+
+

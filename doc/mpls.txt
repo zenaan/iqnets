@@ -1,0 +1,17 @@
+
+covfefe udp f2f mesh net is in a sense like MPLS:
+
+ - but only between two peers
+
+ - packet encrypted from A to C, via B, means:
+   - A requests of B, data link to B, and routing to C
+   - B in turn accepts request, and makes its own request to C
+   - if C accepts, B can route from A to C, and like NAT, C sees packets only from B
+   - A encrypts to B
+   - B decrypts from A, and re-encrypts to C (ala NAT), so packet appears to come from B
+
+ - but peers must be "in some way" identifiable, so that routing decisions can be made
+
+
+https://en.wikipedia.org/wiki/Multiprotocol_Label_Switching
+In particular, MPLS dispenses with the cell-switching and signaling-protocol baggage of ATM. MPLS recognizes that small ATM cells are not needed in the core of modern networks, since modern optical networks are so fast (as of 2017, at 200 Gbit/s and beyond) that even full-length 1500 byte packets do not incur significant real-time queuing delays (the need to reduce such delays — e.g., to support voice traffic — was the motivation for the cell nature of ATM).
