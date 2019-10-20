@@ -1,0 +1,27 @@
+
+Peer Metrics
+
+	peer == node
+	friend == node with some level of meat space assigned "trust"
+
+The low level of covfefe is about onion routing amongst identified peers.
+
+To make routing decisions, we must know peers, so peer info must be shared/ distributed.
+
+Entry nodes for important stuff (to you, the end user) means (sending receiving) via "trusted"
+peers.
+
+Node identification must be maintained to make routing decisions.
+
+Node metrics must be maintained to make better routing decisions over time.
+
+A node's declared metrics may or may not match discovered metrics.
+
+Both declared and discovered metrics are stored per node.
+
+Changes, i.e. events which cause changes, to metrics, are also stored.
+
+At some point, older data may no longer be desirable to store.
+
+Clearing all node data is a trivial task - destroy the LUKS keyblock for the history store.
+

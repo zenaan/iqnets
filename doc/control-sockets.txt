@@ -1,0 +1,10 @@
+
+Control Sockets
+
+A control socket also needs to have a little chaff, but perhaps of a random sort of chaff, to
+match "possible" control messages - the randomness will need to match the typical profile of
+control messages, so that the real control messages disappear in the chaff :)
+
+
+See also peer-metrics.txt
+
