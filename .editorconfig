@@ -27,9 +27,9 @@ trim_trailing_whitespace = true
 [README.md]
 indent_style = space
 
-#[doc/**]
+[doc/**]
 #indent_style = space
-#indent_size  = 4
+indent_size  = 3
 
 # YAML - spaces for indents is per spec, might ignore that bit of the spec here
 #[*.yaml]
