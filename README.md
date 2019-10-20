@@ -6,5 +6,5 @@ Status: design and consideration, intent to code Proof of Concept
 Language:
 	initial proof of concept: Java
 
-See [notes in doc](doc/).
+See [notes in doc/](doc/).
 

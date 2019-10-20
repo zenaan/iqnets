@@ -1,0 +1,130 @@
+
+Some basics:
+
+  - UDP base protocol
+    - at least initially
+    - (lower/ higher/ HTTP tunnel bridges etc later)
+
+  - 100% P2P, no central auth needed
+
+  - trust metrics for "friends" (the F in F2F)
+    - configure default provision/ reservation of available bw for
+      friends/ various "trusted peer" levels of trust
+    - the rest can make do with the rest of the available bw
+
+  - TUN/TAP based, Linux is comfy here (OpenVPN has Windows drivers),
+    this allows ready userspace development iteration
+
+  - back of envelope calc for 24/7 connection at 8 Kibit/s (1 KiB/s):
+    https://en.wikipedia.org/wiki/Data-rate_units
+
+    seconds / day = 60*60*24 = 86400
+    bytes / day   = 86400 * 1 * 1024 = 88,473,600
+    MiB / day = (bytes/day)/1024^2 = 84.375
+    GiB / month = ~2.5
+
+  - end user node originated routing (similar to Tor)
+    - implies a node needs to know about other nodes
+    - peer nodes provide info about their immediate peers
+      - possibly also about peers they've been informed of
+
+  - peerInfo contains asserted trust metrics
+    - third hand trust is below first hand trust
+
+  - meat space trust assertions are primary trust source
+
+  - with Tor Browser and no local node, user is with high certainty
+    exposed to deep pocketed GPAs running majority of entry nodes
+    - you NEED at least 2, possibly more (need thought on this)
+      "trusted" peers to have sane net entry
+
+  - Sybil attacks:
+    We are out-competed in any trustLESS network (well funded GPAs);
+    - so we have no option but to establish at LEAST 2, possibly at
+      LEAST more than 2 (idk yet), meat space "trusted" humans, at
+      least for certain or most network entry
+    - in a very real way, in this way CovfefeNet will mirror real
+      relationships in our day to day life
+    - yes, you may choose to trust someone you've never met, but have
+      built a long term communication relationship with online for
+      example - you must decide who and for what purposes, you trust
+      any individual
+
+  - initial F2F connection is a control socket (UDP) and one or more
+    uni- or bi-directional data sockets (UDP)
+
+  - If you have NO one you can trust in meat space, you're Shit Outta
+    Luck, sorry... your #1 job is to engage with real live humans and
+    establish actual relationships - you might have to go through a
+    few dozen - or a few 100 - to find the gem you can trust. There
+    is no other way. Sorry about that, but reality is our tutor by
+    default.
+
+  - serialization (of e.g. control messages), some combo of:
+    - YAML, or a YAML subset
+    - protobufs
+
+  - DJB's nacl crypto
+    - possibly Linux LUKS volumes for local store
+    - LUKS supports also Veracrypt for Windows compat
+
+  - STUN etc NAT router port busting libs and protocols
+
+  - if you want something approaching "secure", don't even consider
+    MS Windows or MacOS
+
+  - available node bandwidth us known/configured, and/ or established
+    over time
+    - available node bw may drop off a cliff, e.g. when shaped by ISP
+    - available node bw may suddenly rise, e.g. when unshaped by ISP
+
+  - strict bw control qdisc (Azureus Vuze seems to do rather well)
+    - strict priority queueing for control sockets
+    - possible "realtime" data socket qdisc (QoS) for e.g. phone
+      calls
+    - preference for Friend peers
+    - reserve headroom X KiB/s for friend peers
+    - hand out remaining [CONFIGURED KiB/s] to incoming requests
+
+  - connect to known contacts/ peers/ "friends"
+    - peer provides set of 1r (once removed) peers, they provide 2r
+      (twice removed) peers etc
+    - additional connections may be made to additionally known peers
+    - maintain peers (metrics) db over time
+
+  - "friendly" control / intention notifications, optional
+    - "I intend to stay online until T time"
+    - "I seek 2.5 hours at 10KiB/s rt QoS" (e.g. phone call)
+    - "I am about to go offline, in D duration"
+    - possible friend response request "Please give me +10 minutes"
+    - possible responses ACK, NAK, or no response
+
+
+Has anyone here coded, or knows someone who's coded network stream
+queueing and shaping code for bittorrent or similar?
+
+I'm not clear on how best to individually shape (i.e. strictly
+control) a few thousand UDP connections - think data structures.
+  - Not reading from a peer's incoming port will presumably cause the
+    sender's queue to block up, but we're doing a "request BPS bw for
+    T time period" model, so we can do much better than relying on OS
+    queueing, namely we can stay below "known bandwidth" of our
+    respective (local) physical links
+
+Short of direct answers as to functional ADTs (maps, rings, cascading
+priorities, etc), I shall investigate torrent clients and bone up on
+qdiscs.
+
+Keep in mind, at least primary routing decisions are all made by the
+origin peer - although the possibility of mid-hop multi path stream
+setup of some sort might be useful (but imagine your GPA killing your
+lone origin connection to establish that yes, it's you
+sending/receiving that particular stream in the middle):
+
+  Multipath TCP: an overview [2013]
+  https://lwn.net/Articles/544399/
+
+  Upstreaming multipath TCP [2019]
+  https://lwn.net/Articles/800501/
+
+

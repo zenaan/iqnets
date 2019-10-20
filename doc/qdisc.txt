@@ -1,16 +1,53 @@
 
-There's one bit I'm not clear on though - queueing/ shaping/ QoSing a
-few 1000 connections.
+There's a bit I'm not clear on - queueing/ shaping/ QoSing a few 1000 connections.
 
 
 
 Queueing disciplines:
- - A Framework for Alternate Queueing: Towards Traffic Management by PC-UNIX Based Routers
+  - A Framework for Alternate Queueing: Towards Traffic Management by PC-UNIX Based Routers
 	https://www.usenix.org/legacy/publications/library/proceedings/lisa97/failsafe/usenix98/full_papers/cho/cho_html/cho.html
 
- - What is the difference between Queueing Discipline ?
+  - What is the difference between Queueing Discipline ?
 	https://forum.dd-wrt.com/phpBB2/viewtopic.php?p=749087
 
- - 
+  - Azuerus/Vuze and other bittorrent clients allow to set overall shaping, but
+	also per-torrent shaping, and from memory Vuze took that down to the
+	per-peer level - by right clicking on a single connection one could set a
+	max up-/down- load speed for that connection.
+
+
+Problem: Reliance on peer to self shape is a non starter; having a
+few 1000 peers means having a CPU efficient and network friendly
+per-peer queueing mechanism.
+
+In other words, we need to only send packets according to the
+negotiated peer bandwidth.
+
+Similarly on receive packets, although we can possibly rely on the
+kernel to put back pressure on, by simply only reading packets
+pursuant to the negotiated incoming bandwidth (if avail bw in this
+time period, read another packet (or batch read N packets if we have
+extra headroom or etc)).
+
+(One or another linux (process) scheduler uses some sort of cascading
+ queues concept, from low to high priority.)
+
+(The datagram socket is the primary queueing mechanism - stop reading
+ from the socket, and the sender's queue will back up at some point.)
+
+Datagram sockets to a client will need to be (at least, or primarily)
+a pair:
+ - a bi-di control socket for max prio control messages
+   - these need to always get through of course, and reading a peer
+     packet must always read first from the control socket, and only
+     if there are no more control messages, read from a data socket
+ - one or more data sockets, which can be unidirectional or
+   bidirectional
+
+data sockets are only set up after a peer control socket is
+established (although establishment of control socket, and request
+for N bps and any other required init messages, can all happen in a
+single UDP datagram, and the response, acceptance of the request, and
+opening of data socket can all happen in the initial reply.
 
 

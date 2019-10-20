@@ -1,0 +1,26 @@
+
+
+Sybil attacks:
+
+ - our not so friendly neighbourhood GPAs (global passive
+   adversaries), are extraordinarily well funded, and can thus out
+   compete us in any trustLESS net
+
+ - this is why we have no option but to establish at least some
+   minimum base peer set, which is "trusted" to some level
+   - thus the necessity for meat-space "human connections"
+
+ - "trust" must be, at least to some (and known) degree, actually
+   established by the end user
+
+ - an end user must establish at least TWO, trusted peers
+   - possibly more than 2 is the absolute minimum, idk, and the
+     statistical/ metrics side of this is a prime academic study
+     target
+
+ - one may trust peers run by a party one has not met physically -
+   relationships may be established over years online without meeting
+   the person, and a known base level of trust arise implicitly
+   therefrom
+
+
