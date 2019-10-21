@@ -1,0 +1,26 @@
+
+On Mon, Oct 21, 2019 at 06:28:01PM +1100, Zenaan Harkness wrote:
+> On Sun, Oct 20, 2019 at 08:40:09PM -0300, Punk - Stasi 2.0 wrote:
+> >     3) virtual-circuit-switched, or packet-switched? Is packet switiching the most expensive
+> >        and the most secure option? Packet size?
+
+Re circuit switching, Tor does what's called onion routing, using TCP
+circuits per onion layer.
+
+This means A connects to B with a (encrypted) TCP connection, and
+requests of B a next hop connection to C.
+
+So B decrypts A's first layer incoming connection, which contains
+A's encrypted connection to C, and B forwards the packets of that
+connection, on to node C.
+
+This layered encryption means B cannot read the contents of A's
+connection with C.
+
+It also is supposed to mean that because A's initial connection to B
+is effective double encrypted, external onlookers should not be able
+to determine that A is connecting to C, only that A is connecting to
+B, but in practice to actually deliver this promise would require an
+effective chaff fill mechanism, to actually obfuscate when and how
+much data A sends to B, etc.
+

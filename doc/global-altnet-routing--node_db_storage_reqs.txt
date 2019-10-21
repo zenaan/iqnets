@@ -1,0 +1,88 @@
+
+To: cypherpunks@lists.cpunks.org
+Date: Mon, 21 Oct 2019 20:13:07 +1100
+Subject: Re: F2F UDP mesh net prototype proof of concept
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+On Mon, Oct 21, 2019 at 06:28:01PM +1100, Zenaan Harkness wrote:
+> There are ~7 billion people on Earth.
+
+Napkin calculations are important when it comes to such numbers as 7
+billion.
+
+In terms of routing, if we create a flat "whole earth altnet" address
+space, this also implies that each node needs to know, or may need to
+know, or may be directly contacted by (sooner or later), every other
+node on earth - all 7 billion if we assume on average one node per
+human.
+
+So we can say things like:
+
+  - assume that node identification and all node metrics, are stored
+    in 1KiB of data
+
+and so each node will sooner or later need to store, at an absolute
+minimum, 7 * 10^9 * 1024*8 (1KiB of bits) / 8 / 1024^3 ~= 6,675 GiB !
+
+So we must compress that (again, assuming a flat virtual network
+for the time being, ignoring natural physical proximities and natural
+physical grouping/clumpiness).
+
+Let's say a node_info requires:
+ - IPv6 altnet address - 128 bits
+ - say 5-bits per metric, and 6 metrics (stat fields) = 30 bits
+ - a few booleans (node blocked by me, "friend", "known" etc) - say
+   30 bits
+ - a display name is desired, say on average compressed to 160 bits
+
+IF the above is sufficient, we have now ~348 bits per node, instead
+of 8192 (1 kibibyte = 1024 * 8 = 8192 bits), and our node static
+storage requirement (for end user routing) becomes:
+
+  7 * 10^9 * 348 / 8 / 1024^3 = ~ 283 GiB
+
+Now we reduce storage costs by assuming that, from my personal node
+perspective, the majority of people in the world (the majority of
+nodes) will fit within a bell curve of "average", and can be treated
+as such, until and unless they identify themselves as not average
+(either preferred, or avoided or blocked, again, by me) - other than
+that, most folks will not distinguish themselves to me, they will be
+in the set "unknown" and otherwise uninteresting.
+
+  https://en.wikipedia.org/wiki/Normal_distribution
+
+Ultimate bell curve density is an empirical matter, but for now we
+can make the averaging assumptions, pluck a random normal deviate out
+of thin air statistics to please ourselves and say it'll be a
+standard normal distribution and that the only interesting nodes (out
+of 7 billion) are gonna be beyond the second sigma - i.e. no more
+than about ~5%, as ~95% will be "normal".
+
+(Defining "normal" in the context of "empirical metrics for a node I
+ am currently connected to" shall come later.)
+
+So, 5% of 7 billion = ~350 million nodes of interest, multiplied by
+~348 bits (for long term per-interesting-node storage) gives:
+
+  7 * 10^9 * 0.05 * 348 / 8 / 1024^3 = ~ 14 GiB
+
+Still too high for a mobile phone, albeit in the realms of
+"possible today".
+
+We can obviously get rid of display names (these are bulk
+"interesting" but not "known friends" nodes), and assume for now 5
+instead of 30 state bits per node:
+
+  7 * 10^9 * 0.05 * 163 / 8 / 1024^3 = ~ 6.6 GiB
+
+And if we change our random normal distribution assumption to 3
+standard deviations being "normal" (~0.3% abnormal/metriced), we get:
+
+  7 * 10^9 * 0.003 * 163 / 8 / 1024^3 = ~ 400 MiB
+
+And finally we're in the realm of "possibly reasonable".
+
+Of course, the most interesting sets are "those I choose to regularly
+connect to" and "those I completely block", so we can likely get that
+400MiB down a bit further still...
+
