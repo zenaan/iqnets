@@ -1,21 +1,28 @@
 # IQNets
 
-Freedom has a price which we must pay, if we wish to live in freedom.
+**Freedom has a price.**
 
-Failure to pay that price, even by way of acquiescense, is the endless slide into slavery.
+If we wish to live in freedom, which we must pay the price (the consequences of living in/ with)
+freedom.
+
+Failure to pay that price, even by way of acquiescense, is the slide down the "slippery slope of
+supposed safety", into abject slavery.
 
 A free people are willing to pay the price which freedom demands.
 
 Intellectually honest humans who uphold our fundamental human rights, support those who live in
 pursuance of our human rights.
 
-This project, IQNets, begins in humble honour of and in deep gratitude to
-**James Dalton ("Jim") Bell**.
+This project, IQNets, begins in humble honour of, and in deep gratitude to
+**James Dalton Bell** (Jim Bell, crypto anarchist) and upholder of our fundamental human rights.
 
-Jim's principled stand (which he holds to this day), having rejected a 2 year "plea deal" by
-pleading guilty (which would have whitewashed the USA prosecutor's evil) cost him 13 years of
-his life in a USA federal prison, by the hand of various corrupt USA federal prosecutors and
-associated humans.
+Jim's principled stand (which he holds to this day), having rejected a 2 year "plea deal" to
+plead guilty to bogus charges (which plea would have whitewashed the USA prosecutor's evil) cost
+Jim 13 years of his life in a USA federal prison, by the hand of various corrupt USA federal
+prosecutors and associated humans, who further spent years attempting to run an appeal "for"
+Jim to eliminate the possibility that Jim could ever appeal his own conviction.
+
+---
 
 IQNets shall be a privacy enhancing "encrypted" network of networks or "mesh net" which is
 intended to overcome certain of the specific, known and fundamental failings of the Tor ("The
