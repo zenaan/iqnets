@@ -8,7 +8,7 @@ The price for freedom includes but is not limited to the consequences of living 
 freedom.
 
 Fail to pay the price freedom demands, even by way of acquiescense, and we live in slavery,
-albeit well fed (usually) and in gilt cages.
+albeit usually well fed sheeple in glittery gilt cages.
 
 Choose comfort and "safety", and we slide down the "slippery slope of supposed safety", into
 abject and despotic slavery, and end up with neither freedom, nor safety.
@@ -34,11 +34,12 @@ IQNets shall be a privacy enhancing "encrypted" network of networks or "mesh net
 intended to overcome certain of the specific, known and fundamental failings of the Tor ("The
 Onion Router") network - primarily the following Tor network problems:
 
- 1. Centralised directory authorities with "special status".
- 2. Complete avoidance of chaff fill anonymisation protocols.
- 3. TCP base protocol, facilitating Tor network connection tracking especially at entry to the
-    Tor network, and which also mandates the unavoidable TCP bandwidth and latency overheads,
-    for all non connection oriented protocols which some people try to run on the Tor network.
+ 1. **Problem**: Centralised directory authorities with "special status".
+ 2. **Problem**: Complete avoidance of chaff fill anonymisation protocols.
+ 3. **Problem**: TCP base protocol, facilitating Tor network connection tracking especially at
+    entry to the Tor network, and which also mandates the unavoidable TCP bandwidth and latency
+    overheads, for all non connection oriented protocols which some people try to run on the Tor
+    network.
 
 These problems with Tor have been known since Tor's inception and assiduously avoided being
 fixed by the USA's Pentagon- and CIA- funded Tor project.
