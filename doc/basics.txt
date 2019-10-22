@@ -43,7 +43,7 @@ Some basics:
     - so we have no option but to establish at LEAST 2, possibly at
       LEAST more than 2 (idk yet), meat space "trusted" humans, at
       least for certain or most network entry
-    - in a very real way, in this way CovfefeNet will mirror real
+    - in a very real way, in this way IQNets will mirror real
       relationships in our day to day life
     - yes, you may choose to trust someone you've never met, but have
       built a long term communication relationship with online for

@@ -1,5 +1,5 @@
 
-covfefe udp f2f mesh net is in a sense like MPLS:
+IQNets udp f2f mesh net is in a sense like MPLS:
 
  - but only between two peers
 

@@ -1,13 +1,6 @@
-__________________________________________________
-COVFEFE
-Opportune
-VPN
-For
-Encrypted
-F2F
-Exchanges
-
-covfefe.me
+________________________________________________________________________________________________
+IQNets: packet switched, chaff filled, end-user node routed, friend to friend, private,
+        communications networks.
 
 
 Performance? Webassembly?
@@ -34,7 +27,7 @@ centralization = censorship, ddos, crack target, user db target etc
 
 https://en.wikipedia.org/wiki/Port_Control_Protocol
 
-"tweets", activity streams, 
+"tweets", activity streams,
 
 id, multiple IDs, choosing which data to share with friends
 

@@ -3,7 +3,7 @@ Honour Roll
 This project begins in honour of Jim Bell of the cypherpunks mailing list, a courageous American
 who took a stand on principle which is beyond the comprehension of many humans today.
 
-In addition, in alphabetical order by family name, Covfefe honours:
+In addition, in alphabetical order by family name, IQNets honours:
 
 
 Andrew Anglin "Taking comedy a little further than the empire appreciates."

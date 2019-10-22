@@ -4,7 +4,9 @@ Peer Metrics
 	peer == node
 	friend == node with some level of meat space assigned "trust"
 
-The low level of covfefe is about onion routing amongst identified peers.
+The low level of IQNets is about onion/garlic routing amongst, first identified peers with some
+level of trust, and secondarily their peers, and so on, and possibly (probably) some allowance
+for "unidentified" random peers.
 
 To make routing decisions, we must know peers, so peer info must be shared/ distributed.
 

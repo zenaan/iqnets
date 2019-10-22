@@ -6,7 +6,7 @@ For the impatient end user who "just wants to view Facebook and do some online b
 noticeable delay, may be too much delay.  Parts of Tor's design are in reaction/ response to
 this principle.
 
-Covfefe net, to be an effective Tor replacement, needs to cater to many, hopefully all, types of
+IQNets, to be an effective Tor replacement, needs to cater to many, hopefully all, types of
 users.
 
 This means users who have:
