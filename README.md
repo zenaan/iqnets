@@ -11,7 +11,7 @@ Fail to pay the price freedom demands, even by way of acquiescense, and we live 
 albeit well fed (usually) and in gilt cages.
 
 Choose comfort and "safety", and we slide down the "slippery slope of supposed safety", into
-abject and despotic slavery.
+abject and despotic slavery, and end up with neither freedom, nor safety.
 
 A free people are willing to pay the price which freedom demands.  All others, are slaves.
 
@@ -19,19 +19,20 @@ Intellectually honest humans who uphold our fundamental human rights, support th
 pursuance of our human rights.
 
 This project, IQNets, begins in humble honour of, and in deep gratitude to
-**James Dalton Bell** (Jim Bell, crypto anarchist) and upholder of our fundamental human rights.
+**James Dalton Bell** (Jim Bell, crypto anarchist) an upholder of our fundamental human rights.
 
 Jim's principled stand (which he holds to this day), having rejected a 2 year "plea deal" to
-plead guilty to bogus charges (which plea would have whitewashed the USA prosecutor's evil) cost
-Jim 13 years of his life in a USA federal prison, by the hand of various corrupt USA federal
-prosecutors and associated humans, who further spent years attempting to run an appeal "for"
-Jim to eliminate the possibility that Jim could ever appeal his own conviction.
+plead guilty to bogus charges (which plea would have whitewashed the USA prosecutor's evil),
+cost Jim 13 years of his life in a USA federal prison, by the hand of various corrupt USA
+federal prosecutors and associated humans, who further spent years attempting to run an appeal
+"for" Jim (behind his back, without telling him) to try to eliminate the possibility that Jim
+could ever appeal his own conviction.
 
 ---
 
 IQNets shall be a privacy enhancing "encrypted" network of networks or "mesh net" which is
 intended to overcome certain of the specific, known and fundamental failings of the Tor ("The
-Onion Router") network - primarily:
+Onion Router") network - primarily the following Tor network problems:
 
  1. Centralised directory authorities with "special status".
  2. Complete avoidance of chaff fill anonymisation protocols.
@@ -56,11 +57,12 @@ So, use Tor at your own risk assessment.
 IQNets by design are/is founded on the following technical computer networking principles:
 
  - packet switched (initially UDP)
- - chaff filled (by peer negotiation per end user configuration)
+ - chaff filled (by peer negotiation per end user configuration) - this is network bandwidth and
+   latency normalization, but also includes packet size normalization
  - end-user node routed (no directory authorities)
  - friend to friend for primary trust, but allowing "unknown" nodes per config
- - privacy enhancing (every claim of guaranteed "anonymity" is asking end users to decieve
-   themselves and thereby put themselves at risk)
+ - privacy enhancing (every claim of guaranteed "anonymity" is asking end users to deceive
+   themselves and thereby put themselves at potentially great personal risk)
  - communications networks
  - for all types of digital communications - tweets to torrents, web browsing to phone calls
 
