@@ -1,0 +1,26 @@
+
+Stream types
+------------------------------------------------------------------------------------------------
+
+Current stream types grab bag:
+
+	- "main stream" web browsing
+
+	- bittorrent/ ftp/ http file upload and download
+		- regular movie download
+		- software updates distribution
+
+	- multi-cast
+		- voice (internet radio)
+		- video (internet TV)
+
+	- text messages/ tweets
+		- extremely high value but rare short text messages
+		- boring/ regular text messages
+
+	- real time media, e.g. voice and video phone calls
+		- latency sensitive, as opposed to e.g. radio show distribution, which can tolerate
+		  significant buffering and therefore latency
+
+	- routing/ network control/setup/request/response type messages
+
