@@ -2,13 +2,18 @@
 
 **Freedom has a price.**
 
-If we wish to live in freedom, which we must pay the price (the consequences of living in/ with)
+If we wish to live in freedom, we must pay the price for freedom.
+
+The price for freedom includes but is not limited to the consequences of living in or with,
 freedom.
 
-Failure to pay that price, even by way of acquiescense, is the slide down the "slippery slope of
-supposed safety", into abject slavery.
+Fail to pay the price freedom demands, even by way of acquiescense, and we live in slavery,
+albeit well fed (usually) and in gilt cages.
 
-A free people are willing to pay the price which freedom demands.
+Choose comfort and "safety", and we slide down the "slippery slope of supposed safety", into
+abject and despotic slavery.
+
+A free people are willing to pay the price which freedom demands.  All others, are slaves.
 
 Intellectually honest humans who uphold our fundamental human rights, support those who live in
 pursuance of our human rights.
