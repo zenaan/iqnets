@@ -105,4 +105,6 @@ https://www.reddit.com/r/firefox/comments/7jzlcf/forget_cookies_local_storage_an
 
 https://en.wikibooks.org/wiki/The_World_of_Peer-to-Peer_(P2P)/Networks_and_Protocols/BitTorrent
 
+https://code.google.com/archive/p/phantom/
+https://geti2p.net/en/  # but see Debian (source) package
 
