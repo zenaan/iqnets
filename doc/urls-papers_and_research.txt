@@ -3,4 +3,6 @@ https://www.freehaven.net/anonbib/cache/back01.pdf
 https://www.mixminion.net/minion-design.pdf
 http://www.bittorrent.org/bittorrentecon.pdf
 
+http://www.eecs.harvard.edu/~htk/publication/2005-jit-cheng-kung-tan.pdf
+https://web.njit.edu/anl/papers/04IA.pdf
 

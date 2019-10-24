@@ -1,0 +1,80 @@
+
+# IQNets WARNINGS
+
+IQNets never equivocates on warnings.
+
+IQNets intends to never mislead any user regarding the limits of
+that which may be achieved or possible with IQNets.
+
+
+## How do I achieve privacy and/or anonymity using IQNets?
+
+__WARNING:__
+If you require privacy and or anonymity for anything illegal,
+it is almost certainly not possible to achieve either privacy, nor anonymity,
+using any software known to exist today.
+
+IQNets cannot and does not provide that for you,
+and neither can anything else that we presently know of.
+
+
+## What if I need legal and/or political protection?
+
+__WARNING:__
+If you require any sort of legal protection or political protection,
+IQNets does not and cannot provide that for you.
+
+
+## Is my computer secure enough to use IQNets?
+
+__WARNING:__
+No.
+Most computers are horribly insecure, notwithstanding corporate boasting
+from the likes of Apple Inc. and Microsoft.
+
+Proprietary computer operating systems including Microsoft Windows, Apple OS/X,
+and all proprietary drivers and firmware for Android, cannot be audited and
+most likely contain actual back doors, and/or bugs which can be used as back
+doors, to all of your passwords and data.
+
+
+## I think I am being personally targetted, how do I use IQNets to fix this?
+
+__WARNING:__
+If you are being personally targetted by an individual or government,
+it is most likely only a matter of time before they crack your hardware and sweep sufficient
+data to parallel construct any charge they wish against you.
+
+IQNets is not able to assist you in regards to this.
+
+
+## I live in ABC, is it legal for me to use IQNets?
+
+__WARNING:__
+It may not be legal according to statute law, to use IQNets in your jurisdiction.
+If you require legal advice, we must advise only that you seek legal advice from a lawyer.
+IQNets cannot and does not provide legal advice.
+
+
+## Since using IQNets, I have had positive feelings, is this normal?
+
+__WARNING:__
+When using IQNets, you may experience feelings of elation, happiness and freedom.
+These feelz can often come when exercising your fundamental human rights,
+including but not limited to your right to communicate freely and anonymously
+with other humans, and doing so without being stalked and snooped by others.
+If you experience negative feelz when using IQNets, stop using IQNets.
+If you are ill, seek medical advice.
+
+
+## Incomplete list.
+
+__WARNING:__
+This list is incomplete.
+Please add further WARNINGS which are needed.
+
+
+##
+
+__WARNING:__
+
