@@ -45,7 +45,7 @@ If you are being personally targetted by an individual or government,
 it is most likely only a matter of time before they crack your hardware and sweep sufficient
 data to parallel construct any charge they wish against you.
 
-IQNets is not able to assist you in regards to this.
+IQNets does not solve this problem for you.
 
 
 ## I live in ABC, is it legal for me to use IQNets?

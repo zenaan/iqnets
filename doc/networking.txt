@@ -6,3 +6,26 @@ libnetty-java
 libnetty-reactive-streams-java
 libnetty-tcnative-java  <<<<<<<<<<------------ contributions by Twitter Inc
 
+
+[PDF] A Wire-Compatible TCP Implementation for Low-Latency Applications
+http://blog.cerowrt.org/papers/bbr_thesis.pdf
+
+Reducing Latency in Tor Circuits with Unordered Delivery
+https://www.usenix.org/conference/foci13/workshop-program/presentation/nowlan
+https://www.usenix.org/system/files/conference/foci13/foci13-nowlan.pdf
+
+[PDF] Rekindling Network Protocol Innovation with User-Level Stacks
+https://jta.github.io/publications/ccr.pdf
+
+Micro Transport Protocol - Wikipedia
+https://en.wikipedia.org/wiki/Micro_Transport_Protocol
+	Micro Transport Protocol or μTP (sometimes also uTP) is an open UDP-based variant of the
+	BitTorrent peer-to-peer file sharing protocol intended to mitigate poor latency and other
+	congestion control problems found in conventional BitTorrent over TCP, while providing
+	reliable, ordered delivery.
+
+	It was devised to automatically slow down[1] the rate at which packets of data are
+	transmitted between users of peer-to-peer file sharing torrents when it interferes with other
+	applications. For example, the protocol should automatically allow the sharing of an ADSL
+	line between a BitTorrent application and a web browser.
+
