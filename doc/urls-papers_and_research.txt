@@ -6,3 +6,22 @@ http://www.bittorrent.org/bittorrentecon.pdf
 http://www.eecs.harvard.edu/~htk/publication/2005-jit-cheng-kung-tan.pdf
 https://web.njit.edu/anl/papers/04IA.pdf
 
+2005 Low-Cost Traffic Analysis of Tor
+https://www.freehaven.net/anonbib/cache/torta05.pdf
+
+https://github.com/cjdelisle/cjdns
+https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md
+
+SNABB networking in user space:
+	LWN article:
+	https://lwn.net/Articles/713918/
+
+	etc:
+	https://www.youtube.com/watch?v=v9cfDbdOjnc
+	https://www.youtube.com/watch?v=C5Sdl2ifpcA
+
+	https://github.com/snabbco/snabb
+	https://blogs.igalia.com/dpino/2017/06/13/snabb-network-toolkit/
+	Reference manual:
+	https://snabbco.github.io/
+
