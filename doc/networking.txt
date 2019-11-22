@@ -18,6 +18,7 @@ https://www.usenix.org/system/files/conference/foci13/foci13-nowlan.pdf
 https://jta.github.io/publications/ccr.pdf
 
 Micro Transport Protocol - Wikipedia
+NOTE: NOT utcp, but utp
 https://en.wikipedia.org/wiki/Micro_Transport_Protocol
 	Micro Transport Protocol or μTP (sometimes also uTP) is an open UDP-based variant of the
 	BitTorrent peer-to-peer file sharing protocol intended to mitigate poor latency and other
@@ -28,4 +29,20 @@ https://en.wikipedia.org/wiki/Micro_Transport_Protocol
 	transmitted between users of peer-to-peer file sharing torrents when it interferes with other
 	applications. For example, the protocol should automatically allow the sharing of an ADSL
 	line between a BitTorrent application and a web browser.
+
+
+
+We must consider UDP/IP based protocols.
+	From here:
+	https://en.wikipedia.org/wiki/Micro_Transport_Protocol
+
+	We find links to these:
+	https://en.wikipedia.org/wiki/Internet2
+	https://en.wikipedia.org/wiki/LEDBAT
+	https://web.archive.org/web/20110725080523/http://forum.bittorrent.org/viewtopic.php?pid=753
+	https://en.wikipedia.org/wiki/Multipurpose_Transaction_Protocol
+	https://en.wikipedia.org/wiki/QUIC
+	https://en.wikipedia.org/wiki/Real-Time_Media_Flow_Protocol
+	https://en.wikipedia.org/wiki/Stream_Control_Transmission_Protocol
+	https://en.wikipedia.org/wiki/UDP-based_Data_Transfer_Protocol
 

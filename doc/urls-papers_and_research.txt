@@ -9,6 +9,16 @@ https://web.njit.edu/anl/papers/04IA.pdf
 2005 Low-Cost Traffic Analysis of Tor
 https://www.freehaven.net/anonbib/cache/torta05.pdf
 
+All current low latency systems broken:
+https://www.freehaven.net/anonbib/cache/entropist.pdf
+
+Breaking and (partially) fixing provably secure onion routing
+https://arxiv.org/abs/1910.13772
+
+
+Tor attacks with only two (adversary) nodes
+https://www.freehaven.net/anonbib/cache/active-pet2010.pdf
+
 https://github.com/cjdelisle/cjdns
 https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md
 
@@ -24,4 +34,11 @@ SNABB networking in user space:
 	https://blogs.igalia.com/dpino/2017/06/13/snabb-network-toolkit/
 	Reference manual:
 	https://snabbco.github.io/
+
+Freedom Systems 2.1 Security Issues and Analysis
+https://www.freehaven.net/anonbib/cache/freedom21-security.pdf
+
+https://en.wikipedia.org/wiki/David_Chaum
+https://en.wikipedia.org/wiki/Mix_network
+
 
