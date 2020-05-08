@@ -18,16 +18,6 @@ A free people are willing to pay the price which freedom demands.  All others, a
 Intellectually honest humans who uphold our fundamental human rights, support those who live in
 pursuance of our human rights.
 
-This project, IQNets, begins in humble honour of, and in deep gratitude to
-**James Dalton Bell** (Jim Bell, crypto anarchist) an upholder of our fundamental human rights.
-
-Jim's principled stand (which he holds to this day), having rejected a 2 year "plea deal" to
-plead guilty to bogus charges (which plea would have whitewashed the USA prosecutor's evil),
-cost Jim 13 years of his life in a USA federal prison, by the hand of various corrupt USA
-federal prosecutors and associated humans, who further spent years attempting to run an appeal
-"for" Jim (behind his back, without telling him) to try to eliminate the possibility that Jim
-could ever appeal his own conviction.
-
 ---
 
 IQNets shall be a privacy enhancing "encrypted" network of networks or "mesh net" which is
