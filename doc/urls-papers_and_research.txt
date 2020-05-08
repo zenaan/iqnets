@@ -14,6 +14,9 @@ https://www.freehaven.net/anonbib/cache/entropist.pdf
 
 Breaking and (partially) fixing provably secure onion routing
 https://arxiv.org/abs/1910.13772
+https://www.freehaven.net/anonbib/cache/tarzan:ccs02.pdf
+https://www.freehaven.net/anonbib/cache/sniper14.pdf
+https://www.freehaven.net/anonbib/cache/raptor-sec2015.pdf
 
 
 Tor attacks with only two (adversary) nodes

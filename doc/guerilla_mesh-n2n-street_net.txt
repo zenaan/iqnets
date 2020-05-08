@@ -1,0 +1,31 @@
+From: grarpamp <grarpamp@gmail.com>
+To: tor-relays@lists.torproject.org
+Date: Thu, 12 Dec 2019 23:08:25 -0500
+Subject: Re: [tor-relays] Improving Relay IPv6 - RIPE Grant
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+On 12/12/19, Logforme <m7527@abc.se> wrote:
+> My ISP ... does not provide ... and has no roadmap
+> I can't switch ISP since they provide the fiber connection for the
+> apartment building.
+
+Seems you should be building out your own
+P2P fiber mesh guerrilla network house-to-house
+owner-to-owner, each node independantly peering
+up with others... don't rent the internet monthly...
+be the internet.
+
+Take less than 2 years of ISP fee, invest upfront
+into independant P2P network node, easily
+gets 10+ years P2P operations in return.
+
+Did you know your central ISP spies on you,
+allows other centrals to spy on you, gives
+all your data away to big centrals.
+
+Distributed private P2P network is much harder to
+do that, especially when every link is independantly
+privately owned and fulltime link encrypted 1 or 10 GigE,
+and everyone is running overlays within.
+
+Go do it.

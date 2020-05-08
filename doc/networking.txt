@@ -32,6 +32,11 @@ https://en.wikipedia.org/wiki/Micro_Transport_Protocol
 
 
 
+Congestion control:
+	https://scitechdaily.com/mit-researchers-designed-a-congestion-control-scheme-to-reduce-delays-in-wireless-networks/
+	https://arxiv.org/abs/1905.03429
+
+
 We must consider UDP/IP based protocols.
 	From here:
 	https://en.wikipedia.org/wiki/Micro_Transport_Protocol

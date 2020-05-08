@@ -1,0 +1,67 @@
+From: grarpamp <grarpamp@gmail.com>
+To: cypherpunks@cpunks.org
+Date: Fri, 13 Dec 2019 05:18:33 -0500
+Subject: Nextgen Networks: Autonomous Slack Space Storage [re: IQNets classes
+ qpq repute]
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+http://piratebayztemzmv.onion/top/all
+https://youtube.com/
+https://en.wikipedia.org/wiki/List_of_most-viewed_YouTube_videos
+https://en.wikipedia.org/wiki/Distributed_hash_table
+https://en.wikipedia.org/wiki/Exabyte
+https://en.wikipedia.org/wiki/Zettabyte
+https://en.wikipedia.org/wiki/Zettabyte_Era
+https://www.youtube.com/watch?v=iIKPjOuwqHo
+
+A new globally distributed P2P autonomously
+self maintaining deduplicating plug and play
+slack space object storage network could easily
+surpass 100EB...
+
+"slack space" - network utilizes say 80% of free
+space on disk for itself, maintains that by progressively
+removing its own extents upon sensing storage pressure
+encroaching the remaining 20% (from users other apps),
+adds more extents if users space later decreases.
+
+Some data expiry models exist as natural byproduct
+in a number of types of storage networks...
+
+- Equal resource sharing / trading, pay based...
+prioritizes the equal player, highest payer, etc.
+- Curation, review, governance... follows the whim
+bias demand and censorship of those actors / crowd
+- Seed based networks... survive until the last seed.
+
+These types also don't support insert and disconnect
+operations very well... indigent artists, first leaks,
+bulk publishers, etc.
+
+Prior attempts at distributed self maintaining
+object storage networks may have assumed that
+demand fallof is the only valid metric to expiry.
+
+http://piratebayztemzmv.onion/top/48hall
+In absense of the three above, short term flash
+demand is news, thus always valid.
+
+Long term, things start looking different,
+unpopular and or old hashes often begin
+to hold term value and importance.
+
+Models for a network open to the masses,
+that happens to prune historical top N hashes at
+each hashes respective M year accounting point,
+may be unlikely to lose anything of importance perhaps
+due to eventual popular reuploading from other sources.
+
+Designers of new nets may want to consider priortizing
+any space reclamation needs based on some analysis of
+real world "popular pop trash" content falloff patterns, some
+physical library, museum, and attic holdings models, inverse
+falloff metrics, internally guaranteed levels of object redundancy,
+etc.
+
+Are any current networks autonomous, free from
+three models above?

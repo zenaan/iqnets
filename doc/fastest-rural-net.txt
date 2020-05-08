@@ -1,0 +1,53 @@
+From: Zenaan Harkness <zen@freedbms.net>
+To: cypherpunks@lists.cpunks.org
+Date: Wed, 4 Dec 2019 13:02:29 +1100
+Subject: Re: Co-op Guerrilla Meshnets
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+When one or two get together to co-op, and leave competition at the
+door, abundance tends to prevail...
+
+Cerate our world ;)
+
+
+
+On Tue, Dec 03, 2019 at 08:29:23PM -0500, grarpamp wrote:
+> https://www.newyorker.com/tech/annals-of-technology/the-one-traffic-light-town-with-some-of-the-fastest-internet-in-the-us
+> 
+> Not an example of distributed DIY co-op, but a story anyway...
+> 
+> McKee, an Appalachian town of about twelve hundred tucked into the
+> Pigeon Roost Creek valley, is the seat of Jackson County, one of the
+> poorest counties in the country. There’s a sit-down restaurant,
+> Opal’s, that serves the weekday breakfast-and-lunch crowd, one traffic
+> light, a library, a few health clinics, eight churches, a Dairy Queen,
+> a pair of dollar stores, and some of the fastest Internet in the
+> United States. Subscribers to Peoples Rural Telephone Cooperative
+> (P.R.T.C.), which covers all of Jackson County and the adjacent Owsley
+> County, can get speeds of up to one gigabit per second, and the
+> coöperative is planning to upgrade the system to ten gigabits. (By
+> contrast, where I live, in the mountains above Lake Champlain, we are
+> lucky to get three megabytes.) For nearly fifteen million Americans
+> living in sparsely populated communities, there is no broadband
+> Internet service at all.
+> 
+> Fibre-optic cables strung above a home in Jackson County, Kentucky,
+> one of the poorest counties in the country. High-speed broadband has
+> been used to bring Internet-based jobs to the region.
+> Before Shani Hays began providing tech support for Apple from her
+> home, in McKee, Kentucky, she worked at a prison as a corrections
+> officer assigned to male sex offenders, making nine dollars an hour.
+> After less than a year, she switched to working nights on an assembly
+> line at a car-parts factory, where she felt safer. More recently,
+> Hays, who is fifty-four, was an aide at a nursing home, putting in a
+> full workweek in a single weekend and driving eighty-five miles to get
+> there. Then her son-in-law, who was married to Hays’s oldest daughter,
+> got addicted to crystal meth and became physically abusive. Hays’s
+> daughter started using, too. The son-in-law went to jail. Their kids
+> were placed in foster care. Then Hays’s stepmother got cancer. “There
+> was a lot going on,” Hays told me. “I was just trying to keep it all
+> together.” She began working from home last summer, which has allowed
+> her to gain custody of her three grandchildren. (Her daughter has
+> since completed treatment for her addiction.) During Hays’s half-hour
+> lunch break, she makes supper. “I wouldn’t be able to do this without
+> the Internet we have here,” she said.

@@ -1,0 +1,85 @@
+From: grarpamp <grarpamp@gmail.com>
+To: cypherpunks@cpunks.org
+Date: Sun, 1 Dec 2019 21:10:02 -0500
+Subject: Nextgen G* Traffic Analysis Resistant Overlay Networks (re Tor
+ stinks)
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+Various wrote:
+
+> "seconds of traffic" refers to the global buffer space
+> and time required for *PA find a solution within it.
+
+> I've wondered whether it's just that they need lots of users for cover
+> traffic. That _was_ a major factor in opening Tor to the public, instead
+> of restricting it to government users. But that seems unlikely, now,
+> given that the NSA etc could easily run enough bots on hacked servers.
+
+> My guess is that the main reason for them to get as many users as they can is to justify funding. Hell, maybe they even get a percentage of funding directly proportional to number of users/network size.
+
+> The Tor rationale for requiring low latency was to make it more
+> user-friendly and also thereby increase (innocent) traffic.
+> Unfortunately that came at the cost of easier traffic analysis, as only
+> the traffic passed within the last 4-5 seconds need be considered. They
+> tried to balance that out - more traffic plus greater usability vs
+> easier analysis
+
+> Initially the main reason was to increase traffic, in order to make traffic analysis harder.
+
+https://metrics.torproject.org/
+
+Tor doesn't use traffic fill, many seem to talk about
+that from "omg bandwidth" rather than how it could
+potentially be used. A net that uses fill doesn't necessarily
+have to be full of 10k-10M+ whatever many users to achieve
+TA resistance. And even a fill net of just 100 nodes could work
+well for whatever users it does or doesn't have.
+The tor network can be quite sparse with voids of low traffic / users.
+Tor did traffic weighting probabilities to try to counter some of the
+single user paths that would obviously otherwise be created by
+pure random routing through such voids. However adversaries
+can still describe analysis and attacks against users passing
+strictly through only the most saturated of nodes, it's a bit harder,
+with fewer options, but still doable.
+Interestingly, such a weighting system is a gravity well...
+"more users" just distribute themselves into its available
+density slots... thus adding "more users" to the network
+doesn't necessarily make that type of network more secure,
+they just increase the physical size of the blackhole.
+Whether the net has 1k or 1M users, they're all going
+to be within some standard deviation of density that
+they themselves create among the well... from 1.0 when links
+are saturated in the singularity, out to 0.0 in voidspace.
+Users have no real guarantee they will fall into some
+feelgood safety slot, say around >=0.85, nor does it
+matter since as above, adversaries can still attack 1.0.
+A fill network can more readily use random routing,
+and its smaller volunteer node operators are happier since
+they have a more equal chance to carry traffic.
+Fill or non fill, random or not, your path is still subject to both
+the worst, and the sum of, all the headroom capacities and latencies
+it traverses... unless you start getting into distributing signalling
+for that around the network, which is probably a complex task.
+Tor allows users to pick empty paths if they don't care about voids.
+Any next generation network should have some user facing path
+selection knobs to handle censorship and anti-Sybil subscriptions.
+Also, if they know their endpoints (a local: chat friend, exit website,
+hidden server), a fill network might allow users to better play off
+jurisdictional spy buffers and performance bets by selecting local
+nodes only... whereas a non fill gravity network might leave voids
+in their region, that the less advanced adversaries in their
+region might otherwise more easily exploit, thus prohibiting
+use of local selections to achieve better latency performance,
+ie: for messaging during a regional / local protest, or for much
+faster local / guerrilla links for filesharing, etc. This notion
+of potentially staying local under a fill network, versus being
+forced to go path out through the gravity well, may also reduce
+load over virtual intercontinental paths, ie: the network might
+begin to naturally emulate backbone tiering but with no additional
+spy buffer risk due to the entire network fill. The Phantom network
+had some free thinking into developing for users to make such
+selections metrics over its node set. Tor still blankets users
+who ask about selecting nodes... with "no", and they secret up
+anti-Sybil bad-relay ops under "yep tor has that" "dirauths are trusted"
+"no worries" advertising that tend to keep independant user based
+efforts to do such things from starting up.

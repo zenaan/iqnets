@@ -1,0 +1,159 @@
+From: Spirit of Nikopol <nikopol@danwin1210.me>
+To: cypherpunks@lists.cpunks.org
+Date: Sun, 15 Dec 2019 06:41:55 -0000
+Subject: Re: Quality Time, Sweetheart: Some Principles on Dangerous Crypto
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+On Sat, December 14, 2019 11:13 pm, Zenaan Harkness wrote:
+
+[.....]
+
+>> - Obscurity is a time buffer. Until the obscure is unobscured, time is
+>> working effortlessly against the effort of attack. (!blasphemy!)
+>
+> Why is this logic "blesphemy"?
+
+A visit to Stack Exchange, Quora, Yahoo Questions, etc. will reveal
+countless parrots declaring 'security through obscurity' a verboten taboo.
+But when you devise an obscure scheme using many ciphers, and don't
+publish the scheme, it does in fact significantly increase security. But
+you are not allowed to say that. If you throw in a couple of unpublished
+ciphers to the mix, it is even better. But again, you are not allowed to
+say that. Saying it is akin to, "He said Jehosephat!"
+
+[.....]
+
+>> - One-time pad injects a time bottleneck approaching functional
+>> infinity.
+>
+> Sort of true.
+>
+>
+> One-time pads are very simple (XOR), and since it's an XOR function,
+> the one-time pad cyphertext can be "decrypted" into every possible plain
+> text combination (for the given input size).
+>
+> Because of this, the above sentence can be clarified as
+>
+>
+> - One-time pad injects a time bottleneck approaching functional
+> infinity, where every possible output text is, at the limit, produced,
+> rendering the brute force decryption functionally useless.
+>
+> I think it's for this reason that one time pads are described as "the
+> only provably secure encryption algorithm".
+
+True but I don't want to spell everything out. The reader must be led to
+conclude some the implications.
+
+[.....]
+
+
+>> - The hassle of exchanging one-time pads is much less than the hassle
+>> of digitally signing your own death warrant.
+>
+> Depending on your need of course. If you have some helicopter gunship
+> expose, more than great crypto is advised, including top of the class
+> op-sec.
+>
+>
+>> - With random one-time pads you run zero risk of secretly borked crypto
+>>  algorithms.
+>
+> Indeed.
+>
+>
+> And suffer the time cost of pre exchange, as well as possible op-sec
+> super fails such as discussing the key exchange protocol on a telephone.
+> ("Oh no, the telephone's fine, I discuss all my drug
+> dealer deals on the phone - the only reason the cops nabbed me was because,
+> just as they said to me when they arrested me, a neighbour dobbed me in" -
+> true story of ignorance par excellence.)
+>
+>
+>> - If doubt is bad, use the one-time pad. Otherwise, bottleneck,
+>> bottleneck, whiten, whiten, obscure, obscure.
+>
+> What a great way to distill important crypto rules of thumb!
+>
+>
+> Thank you for sharing.
+
+You're welcome. Your mind is clean, unlike the others. I find this host
+body suitable for my thoughts.
+
+>> - If it has not been 100% proven secure, why would you assume it is
+>> secure?
+>
+> OTP, muffas!
+
+You down with OTP?
+
+> That said, Bernstein is a sufficiently stubborn, apparently diligent
+> and socially acerbic nutter, that his black boxes have a shade of black
+> which is quite new (I think they call it "new black") and somewhat
+> appealing...
+
+His spam and security protections are so stringent that not even his mum
+can subscribe to his mailing list.
+
+>> - The prophetess of Delphi is not your human shield.
+
+[.....]
+
+>> - Why would your adversary publish the fact that he has broken your
+>> cryptography?
+>>
+>> - Rather it may mean your adversary is practicing security through
+>> obscurity, which has won many battles. (!blasphemy!)
+>
+> Yes, fundamentally important blasphemy. For all who missed the memo.
+
+[.....]
+
+> Evidently we must distinguish types of communications, the lettuce
+> and carrots from the rib eye and rump.
+>
+> OTP sharing implies meat space connections.
+>
+>
+> Make your meat space real, embrace the rib eye.
+
+I am stealing that (the rib eye is bossmonstrous). Can five eyes digest
+the rib eyes?
+
+[.....]
+
+> The proud often parrot the "obvious", oblivious to official
+> obfuscation. Your treatise is generous indeed...
+>
+>
+>> - Basket encryption and stacking pancakes: If 16 superencryptions are
+>> used with 16 different algorithms then the attacker must spend time to
+>> correctly guess each algorithm in the correct order with the correct
+>> keys or breaks. 16 pow 16 = 18446744073709551616 combinations, before
+>> we've even addressed possible keys. If your basket of available
+>> algorithms is larger than 16, this time injection can get unwieldy for
+>> attackers, even if the attacker has a quantum 'flux capacitor.'
+>
+> Making meat space "OTP" or "super key" sharing, a much more
+> profitable endeavour.
+>
+>
+>> - When your life or liberty is at stake, to hell with efficiency.
+>> Churn,
+>> baby, churn!
+>
+> Meat space baby, meat space!
+
+Insert Ted's steakhouse jingle. (!sorry!)
+
+ -------------------------------------------------
+ S P I R I T    O F    N I K O P O L
+
+ Don't swap synthetic brains for your real brains.
+ broadcast on BitMessage (https://bitmessage.org)
+ subscribe: BM-NBEz3C1WktcyMZwVRWgDNGpU5gMRZ2iT
+
+
+----- End forwarded message -----

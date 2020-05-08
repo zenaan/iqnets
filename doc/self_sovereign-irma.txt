@@ -1,0 +1,37 @@
+From: stef <s@ctrlc.hu>
+To: grarpamp <grarpamp@gmail.com>
+Cc: cypherpunks@cpunks.org
+Date: Tue, 7 Jan 2020 13:48:38 +0000
+Subject: Re: Self-Sovereign ID Tech
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+On Tue, Jan 07, 2020 at 12:25:01AM -0500, grarpamp wrote:
+> https://www.computerworld.com/article/3512108/frustration-over-growing-privacy-and-security-failures-advancing-self-sovereign-identities.html
+> https://github.com/WebOfTrustInfo/rwot5-boston/blob/master/topics-and-advance-readings/self-sovereign-identity-primer.md
+> 
+> There is a growing movement among fintech companies, banks, healthcare
+> services, universities and others toward disintermediating the control
+> of online user identities in favor of supporting end-user controlled
+> decentralized digital wallets based on P2P blockchain. Self-sovereign
+> identity (SSI) is a term used to describe the digital movement that
+> recognizes an individual should own and control their identity without
+> intervening administrative authorities. The wallets would carry
+> encryption keys provided by third parties and could be used to
+> digitally sign transactions or provide access to verifying
+> information, everything from bank-issued credit lines to diplomas --
+> all of which are controlled by the user through public key
+> infrastructure (PKI). The blockchain ledger and PKI technology is
+> hidden behind user-friendly mobile applications. Currently, there are
+> more proof-of-concept projects than production systems involving a
+> small number of organizations. The pilots, being trialed in
+> government, financial services, insurance, healthcare, energy and
+> manufacturing, don't yet amount to an entire ecosystem, but they will
+> grow over the next few years, according to Gartner.
+
+you guys should have a look at IRMA at https://privacybydesign.foundation/en/
+
+it works in a totally decentralized way (except for the keyshare server, which
+is a brilliant piece in itself) without any of that blockchain bullshit. there
+is code, apps for phones, and if you are dutch you even have attributes by the
+dutch gov like residence, birth and nationality as such, work is now done to
+expand into the healthcare sector.

@@ -1,0 +1,64 @@
+From: Zenaan Harkness <zen@freedbms.net>
+To: cypherpunks@lists.cpunks.org
+Date: Fri, 13 Dec 2019 14:35:08 +1100
+Subject: Re: IQNets: user classes, network locality, quid pro quo, torrents
+ at core, on gaming reputation
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+On Fri, Oct 25, 2019 at 09:06:24AM +1100, Zenaan Harkness wrote:
+> On Thu, Oct 24, 2019 at 04:46:44PM -0300, Punk - Stasi 2.0 wrote:
+> > On Thu, 24 Oct 2019 22:49:48 +1100
+> > Zenaan Harkness <zen@freedbms.net> wrote:
+> > > Storage metrics, just as with network metrics, are also maintained in
+> > > order to establish fairness - quid pro quo.
+> > 
+> > 	storage of what
+> 
+> Something that may or may not be encrypted, as in, I hand out a bunch
+> of say 100KiB "storage undertaking" tokens - if they're on my mobile
+> phone, compared with a permanently connected computer, that's a
+> connectivity metric, and of course permanently connected tokens are
+> more valuable.
+> 
+> This is similar to Freenet, with a strong emphasis on quid pro quo,
+> and "anonymous" or at least intended to be.
+> 
+> If I want to upload a new 'tube, and I want it to be accessible at
+> high speed in this overlay net, I need it split into suitably small
+> chunks, and I need each chunk suitably replicated (so that if I
+> replicate each chuck say 3 times, they're not all replicated on
+> mobile phones normally only on at the same time - thus the need to
+> store storage metrics.
+
+One consequence of quid pro quo (QPQ) cache tokens, is that if I want
+my latest 'tube to be replicated X times, and I am relying on QPQ
+cache of other nodes, I will need to offer the amount of storage I am
+seeking - if my vid is 100MiB, and I want 3x replication, and I must
+QPQ (i.e. offer a storage token in order to obtain a storage tokens
+from others), this means I must offer to cache 300MiB, in order to
+get my vid cached 3x.
+
+Plus presumably I am storing my vid, which means 4x copies of the vid.
+
+Next, as torrents do today, sane P2P protocols should strongly
+incentivize "making available for upload, that which I download/ view".
+
+
+> Desperate to upload my 'tube, I have a few options
+>   - find a free hosting service
+>   - host it myself
+>   - ask friends to host it
+>   - trade my own storage anonymized storage undertakings with others,
+>     and then make use of some randomized combination
+> 
+> Having 'friends' is simply a way to use something that exists (actual
+> friends, if I have any), to increase the difficulty of people gaming
+> the metrics e.g. of a utilized storage undertaking.  "Crowdsourced"
+> metrics are something bittorrent does a bit of in this way...
+
+
+Availability metrics can include, for the proactive vlogger,
+randomized "QPQ cache block" checks - d/l and check the SHA, store
+availability/ validity metrics accordingly.
+
+

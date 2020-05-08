@@ -1,0 +1,74 @@
+
+
+
+Note below that "availability" ~= "over duration", which in this context is a QoS metric of some sort.
+
+
+
+From: Zenaan Harkness <zen@freedbms.net>
+To: cypherpunks@lists.cpunks.org
+Date: Wed, 11 Dec 2019 11:21:48 +1100
+Subject: Re: resource starvation attacks - Re: iqnets: opportunistic XYZ,
+ e.g. "begin xmit"
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+On Wed, Dec 04, 2019 at 12:23:57PM +1100, Zenaan Harkness wrote:
+> > Again, network resources include:
+> >
+> >   - b/w (bandwidth)
+> >
+> >   - b/w availability
+> >
+> >   - latency
+> >
+> >   - latency availability
+> >
+> >   - data storage
+> >
+> >   - data storage availability
+> >
+> >   - link count
+> >
+> >   - link count availability
+> >
+> >
+> > Are we yet missing a basic "network level" resource?
+>
+>
+> The lone neurone strikes again:
+>
+> A typical network use pattern is:
+>
+>   - connect
+>   - begin download
+>
+> So link reservation windows where the pertinent parameter is time T,
+> may be complemented with "data xmit" total, either at link setup,
+> and/ or "shortly" after link has been set up.
+>
+> So this protocol might be e.g.
+>
+>   - connect, default time reservation e.g. 2 minutes
+>   - begin download
+>   - (e.g. HTTP) headers identify the download as being say 160MiB
+>   - link/switch request to modify "T=2 minutes" to "xmit=170MiB"
+>   - ack or nack from peer nodes as they are willing/able
+
+
+Of course, X bps for T period, is a similar way to say
+transfer Y MiB "at your convenience" and nego bandwidth.
+
+Remember that
+
+  (total) xfer = bandwidth x time
+
+and so of course
+
+  time = xfer / bandwidth
+
+and similarly
+
+  bandwidth = xfer / time
+
+, and so pick the forumla you need for the inputs you have,
+to determine the request/ consequence (e.g. what to nego).

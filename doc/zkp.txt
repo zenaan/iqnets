@@ -1,0 +1,20 @@
+From: grarpamp <grarpamp@gmail.com>
+To: cypherpunks@cpunks.org
+Date: Wed, 18 Dec 2019 03:07:22 -0500
+Subject: Cryptocurrency: Zero Knowledge Proofs ZKP
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+Security and Privacy for Crypto with Zero-Knowledge Proofs
+https://www.youtube.com/watch?v=3NL0ThdvWMU
+
+Zero Knowledge Proofs and Their Future Applications
+https://www.youtube.com/watch?v=J3jKROwTPCs
+
+Zero-knowledge proofs intro with Str4d (Zcash)
+https://www.youtube.com/watch?v=Y9YgRDJAFEE
+
+
+Satoshi's Faith...
+https://www.youtube.com/watch?v=DCT21kt5KME
+https://read.cash/@Cheshirecat/abc-dragging-feet-or-existential-choice-6c4fc770
+

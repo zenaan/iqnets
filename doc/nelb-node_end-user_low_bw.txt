@@ -1,0 +1,114 @@
+From: Zenaan Harkness <zen@freedbms.net>
+To: cypherpunks@lists.cpunks.org
+Date: Thu, 19 Dec 2019 15:16:42 +1100
+Subject: Re: IQNets - low b/w end user nodes - maximise 'user experience'
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+On Fri, Dec 13, 2019 at 12:55:13PM +1100, Zenaan Harkness wrote:
+> End user nodes which have low or relatively low total bandwidth BW,
+>
+>   Node End-user Low Bandwidth => NELB
+>
+> might usefully provide only small or "marginal" b/w links, and link
+> contracts with reduced time T.
+>
+> Where the end user 'experience' arising from his available b/w is
+> already reduced/low/frustrating, any overlay which treats that end
+> user as anything but an "mostly end user only" node, will likely be
+> switched off/ disabled/ uninstalled, by said end user.
+>
+> So for a "compelling user experience", at least with NELBs, by
+> default we ought limit both time duration T and bandwidth BW, for all
+> link contracts handed out to incoming requests.
+>
+> Low T means "problematic" (from end user experience point of view)
+> link contracts will time out "relatively soon".
+>
+> Low BW, as a percentage of total NELB BW, should minimize "obtrusive
+> slowdowns due to the overlay net", again, from the end user
+> perspective.
+>
+> Some aggregate numbers of global Internet users, e.g. "how many
+> Internet users, globally, onramp at X kbps b/w?"
+>
+> Presumably there are still millions who have sub 256kbps?
+>
+> In any case, with the limit case, at least for certain groups of
+> users, being groups of such low b/w links, a useful overlay net must
+> usefully use "many micro connections".
+>
+> We can at some point test and establish useful minimum T and minimum
+> BW for T.
+>
+> To optimize for such lithe links (rather, link contracts), we need to
+> minimize "overlay network switch contract nego" latency.
+>
+> So various previously listed concepts are essential at the core of
+> the overlay net - seamless utilization of many "micro" links, link
+> aggregation, seamless handling of links that drop out, possibly
+> fan-out (single high BW to many low BW) and fan-in hops, etc.
+
+
+NELB nodes (i.e. in the 14.4kbps class), give rise to consideration
+of their primary use case being low b/w messaging systems.
+
+If a node may transfer a maximum of only 1pps (packet per second),
+consider a messaging layer
+
+  - 1 packet per minute
+  - fixed size packets
+  - 1.4KiB packets
+
+
+Some random nomenclature:
+
+  - WD: node "sync window" duration, is 1 minute = 60s
+  - WS: window wall clock start time, nego'd with peer
+  - WE = WS + 60
+
+  - PTD: estimated/avg packet transmission duration
+  - PTDe: packet transmission duration error
+
+  - PTS: packet transmission start time
+  - PTE: packet transmission end time
+
+  - Wi(PTS) = 60 - PTD - PTDe.max : window for possible values of PTS
+
+
+Consider possible values for PTS, within each window WD:
+
+  - PTS = PTS.min = 0
+  - PTS = PTS.max = Wi(PTS)
+  - PTS = rand(0,PTS.max)
+  - PTS = nego fixed PTS with peer(s)
+  - PTS = some algorithm (e.g. pseudo random, or nego'ed etc)
+
+PTS might be nego'd on one side only, say between peers A and B, or
+also in consultation with a third peer C, or with more than just a
+third peer if we are creating a fan-out link/route.
+
+The considerations for different values of PTS must include the
+various network/ flow on effects - think dominoes of one node
+affecting the next node etc.
+
+
+--------
+The limit case is an early 1990s modem link or slower, e.g. 14.4kbps or less than 2KiB/s.
+
+With a UDP packet between 0.5 and 1.5KiB, we might be talking about 1 packet per second.
+
+The types of comms activity suitable for such a network are limited, as some will recall - basic text based web pages, SMTP/POP, etc.
+
+In this limit case, an overlay network as today's users would think of that, is not practical (since neither is "normal Internet surfing by today's standards"),
+
+BUT, IQNets ought actually optimize such networks - with user (at the UI/GUI) insight into the types of traffic he wants to xfer, and design for certain high latency + low b/w text comms, an IQNet node may be quite a bit more practically useful than a plain W98 TCP stack.
+
+1.5KiB/s ~= 126MiB per day, or about 3.5GiB/month.
+
+Could we implement a useful high latency, low b/w text messaging overlay network in
+3.5GiB/month?
+
+Of course we could - which was likely the point of the early cypherpunks email mixnet experiments etc.
+
+
+--------

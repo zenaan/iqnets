@@ -57,22 +57,22 @@ So, use Tor at your own risk assessment.
 
 IQNets by design are/is founded on the following technical computer networking principles:
 
- - packet switched (initially UDP)
+ - packet switched (initially UDP), not TCP connection oriented
  - chaff filled (by peer negotiation per end user configuration) - this is network bandwidth and
-   latency normalization, but also includes packet size normalization
+   latency normalization (over time), but also includes packet size normalization
  - end-user node routed (no directory authorities)
  - friend to friend for primary trust, but allowing "unknown" nodes per config
  - privacy enhancing (every claim of guaranteed "anonymity" is asking end users to deceive
-   themselves and thereby put themselves at potentially great personal risk)
- - communications networks
- - for all types of digital communications - tweets to torrents, web browsing to phone calls
+   themselves and thereby put themselves unknowingly at potentially great personal risk)
+ - digital communications networks
+ - for everything from tweets to torrents, web browsing to phone calls
 
 The design of IQNets begins late October 2019.
 
 IQNets shall be ready when it's ready, and not before.
 
-Time frame for even a "techy admins only prototype" is "Not Sure" (with thanks to Idiocracy the
-movie).
+Time frame for even a "techy admins/testing only prototype" is "Not Sure" (hat tip to
+Idiocracy).
 
 (IQNets is Renamed from "Covfefe Opportunistic VPN For Encrypted F2F Exchange" - Covfefe shall
  be my trigger memeing chat client (running on IQNets) instead :)
@@ -80,14 +80,17 @@ movie).
 
 ## Status
 
-As at October 2019: design and consideration, intent to code Proof of Concept once the basic
-concepts are settled; discussion ongoing at the cpunks.org "Cypherpunks" email mailing list and
-with the analyses and notes fed into text files located under `doc/` .
+As at October 2019: TODO list and WIP:
+design and consideration;
+intent to code Proof of Concept once some basic concepts are settled;
+discussion on cpunks.org "Cypherpunks" mailing list.
+Analyses, notes, links etc are fed into text files under `doc/` .
 
 
 ## Miscellania
 
-Language: initial proof of concept: Java
+Language: initial proof of concept: anything you like or are comfortable in - competing
+implementations is a good thing, though no design is yet ready.
 
 License: GPL3
 

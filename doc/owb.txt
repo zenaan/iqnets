@@ -1,0 +1,219 @@
+OWB -- One Way Blog
+
+Notes from cypherpunks emails:
+
+
+From: Zenaan Harkness <zen@freedbms.net>
+To: CypherPunks <cypherpunks@lists.cpunks.org>
+Date: Thu, 13 Feb 2020 21:31:20 +1100
+Subject: git based dark web (Tor) "one way"  blog/ document dump/ wordpress?
+
+Anyone know of a Tor site which is basically a blog site, but effectively only allows additions of documents, attachments and pages (sort of like git stores all history) - perhaps based on git?
+
+This is sort of like a wikileaks, but unfiltered/ unadjudicated, and also not for any government or corporate "leaks", just for a few folks who wish to speak publicly on their private views and opinions, without being able to censored after the fact, and with verifyable identity (e.g. by signing git tags, which can then be verified by viewers of the blog, or at least by those who git clone it)?
+
+Also, re dark web, Tor is presently "the only readily installable option" - so this needs to be an onion site/blog, so most folks can "just install TBB and view the site".
+
+Short of such a "dark web one-way Wordpress", anyone personally familiar with actually deployed (floss) software to do such a job (please no PHP)?
+
+
+
+On Thu, Feb 13, 2020 at 06:00:21AM -0500, John Young wrote:
+> By design of the internet nothing can be done on it that is not traceable, any
+> suggestion otherwise by default sustains the fiction of untraceability.
+
+Indeed.
+
+
+> The current Joshua Schulte trial testimony by CIA witnesses continues to spew
+> disinformation about this, as if the prosecution has been initiated to delude
+> internet users, mavericks, hackers, coders, administrators, programmers,
+> developers.
+>
+> In February 11 testimony a CIA witness claimed 120-150 agency developers were
+> busy coding malware for deployment.
+
+Replaced Vault 7 already no doubt..
+
+
+> Schulte lawyer questioning CIA witness:
+>
+> "Q. And malware is just a way to infect another system, correct?
+> A. Yes.
+> Q. How many developers were there developing malware?
+> A. I would say probably 120 to 150."
+>
+> https://documentcloud.org/documents/6775056-20200211.htm (pages 20-21)
+>
+> To be sure, CIA officers lie, spread disinfo, swear to tell the truth, run
+> misleading prosecution operations, run leak sites and anonymizers, post to
+> mail lists, inundate social media, groom informers, pay bribes, coerce
+> resisters into betraying associates, hire the most vociferous opponents,
+> implant bullshit on Wikipedia and Wayback, issue distortionate books, film,
+> tv, theater, so forth. Git, Full-Disclosure, Dark Web, alternatives to
+> internet as watering holes, stings, recruitment hangouts, why even this very
+> cess pit. Trust us.
+
+Fair point.
+
+This is a personal intention and your thoughts prompt "who is my adversary?", the answer being "the possible manifestation of the threat of legal injunction in an Australian court" (obtained by an evil SOB who's a dangerous child in an adults body and has caused much financial harm to many people).
+
+That's the specific threat model.
+
+This could apply to others in other jurisdictions.
+
+So long as a blog entry is under the blogger's control, the blogger is under potential legal (injunctive) threat - i.e., the threat of a legal injunction to "remove that blog!"
+
+Thus the concept "one way blog", where every change (or "deletion") simply creates a new blog entry, and does not delete any old entry.
+
+And to escape $LOCAL_LEGAL_JURISDICTION, the blog should be auto-mirrored to various disparate, multi-polar jurisdictions.
+
+The blog content being "(generally) statutorily lawful and factual material, which a private individual may personally object to in such a way as they are motivated to try to obtain an Injunction from a $LOCAL_COURT.
+
+A one way blog should mean that at worst the Australian blog can be "updated" (with a new or replacement blog entry), or taken offline completely, and yet the additional duplicates around the world remain, outside of reach of local jurisdiction.
+
+Nothing embarrassing to the empire, so no helo-gunships.
+
+Possible names:
+
+  - one way blog
+
+  - speak your facts
+
+  - one way facts
+
+  - facts don't lie
+
+  - true news
+
+  - bloody nasty muffas exposed
+
+etc
+
+
+
+One way blogs - OWBs:
+
+Important points:
+
+  - OWBs are, due to present tech, not anonymous.
+
+  - They simply provide the possibility that something you write or some document (say an Affidavit) that you upload, cannot be easily attacked by a non-state actor, primarily by virtue of being replicated into a few 'foreign' statutory jurisdictions, and due to the
+-implicit- technical contract by virtue of the default policies in place
+, and default tech policies in place in the infrastructure of OWBs.
+
+  - During normal operation of an OWB node, the only pages or documents that would ever be removed (for THAT node) would be those under an injunction to be removed by a $LOCAL_JURISDICTION court.
+
+  - Which gives the thought that a blog creator might be provided an option to self-assess the nature of his blog as to its content, in particular so that nodes in other jurisdictions can choose to only auto-mirror content which is lawful in their own local jurisdiction - this might even be needed for (no tech) folks to be comfortable with deploying an OWB node.
+
+  - Arguably it could be considered implicit that any OWB blog page could potentially come under court injunction to be removed (in local jurisdiction) - and this is the foundation cause of the OWB concept - however this doesn't really add much since this is true of all media published everywhere anyway, although naming this concept AS a foundation cause, might help steer folk's' thoughts in this direction, which might be useful to their conscientiousness around their speech and their rights in relation to speech.
+
+
+Notes:
+
+Most folks these days use FaceBook or Twitter as their blog platform to "talk to the world", e.g. by creating a FaceBook "Group", and also YouTube.
+
+The problem with these legacy platforms is that they censor, ban, and shut it down if you get a little too popular or some "lefty" complains.
+
+Could an auto-mirrored multi-jurisdictional platform be more censorship resistant "for Joe Bloggs"?
+
+Is it worth creating?  Depends on the effort I guess...
+
+The infrastructure is probably something like:
+
+  - a VM/VPS
+  - ssh
+  - git
+  - user db
+  - sync scripts, push and/or pull depending on peer conf
+  - OWB software/platform
+  - tor
+  - web server to deploy blog as .onion html site
+
+and the only parts to develop are the sync scripts, user db and
+OWB stuff.
+
+
+Sync:
+
+  - rsync
+
+  - git push/pull
+
+  - custom jobs or bundles, say each new blog entry (or update) becomes a bundle (possibly with a separate descriptor/meta file if that's useful to assist sync rules) which can be pushed or pulled
+	 - multiple bundles can be streamed
+	 - this sounds an aweful lot like a deficient git, most custom such things needs to really need to have a clearly defined benefit over the status quo (git) to be worth doing at all
+
+
+Scalability:
+
+  - If it becomes a popular "media/blog" platform, say when the first "one way blog" goes viral in the face of a $LOCAL_JURISDICTION failed shut it down attempt, potentially 10s or thousands of bloggers might find themselves inclined to deploy/use it.
+
+  - Anything on such a scale (not wikipedia scale, but certainly not small) wants to be not bound into a single git repo.
+	 - So per-blog or per-user "blog sync repos".
+	 - This also facilitates "archival" of older/ inactive blogs - we only want to sync active blogs, i.e. those with updates.
+
+  - I'm familiar with the git remotes rules for bidirectional sync, which can also be made to work for more than 2 peers.
+
+  - I'm not yet particularly familiar with git subrepo/ submodule/ subtree.  https://github.com/ingydotnet/git-subrepo
+
+	 Let's say this gets to say 500,000 OWBs after a few years of popularity - how do we minimize the pain of getting to that point?  What technical/ design choices do we need to make today to make such a target reasonable?
+
+
+One way blogs:
+
+  - provide ready links to earlier versions of a page (like a wiki, but make sure it's impossible to "bury" old pages)
+
+  - provide ready access to mirrors, say an entry page which does nothing but link to say a random mirror
+
+  - should be mutually supportive - if the peer I normally use to add a blog entry is down, any other node should allow me to log in and add an entry to my blog, which should then turn up on other nodes
+
+  - permalinks?
+
+  - clearnet links can be provided with ".ws" onion extension - i.e.  MyOnionblgwhe309sda.onion.ws
+
+	 But does this just delay pain in a not useful way - i.e. is it better to just push all users and readers to use TBB from the start?
+
+	 Also, for example, last night I did a dark web search and found four links to dark web hosting of one or another sort - the 2 I clicked on (within TBB) each went to the .ws site; as a brief test I deleted the ".ws" and neither site came up - tried this a few times then tried "new circuit" - nothing!
+
+	 So those 2 sites came up on the ".ws" version of the onion, but not on the onion version of the onion site.
+
+	 Such inconsistent experience is effectively an attack vector - sort of like a crypto algorithm downgrade attack, but it's an "access visibility attack" (to reduce the relative privacy/ plausible deniability when reading or adding to a blog).
+
+
+
+Jurisdictions:
+
+User visible blog names might contain the jurisdiction, say:
+
+  AUS.MyExMateJimIsABastard.OwBloggPlt23jf.onion/...
+  MyExMateJimIsABastard.OwBloggPlt23jf.onion/AU/...
+
+and then if an Australian court issues an injunction against "$CODE.MyExMateJimIsABastard.OwBloggPlt23jf.onion/", and an Australian OWB node operator receives a copy of that injunction, she might choose to take down the blog "MyExMateJimIsABastard" in order to comply with that court order.
+
+Of course, other nodes in Australia, and nodes around the world, would be unlikely to receive that injunction, and some in other countries won't be able to be easily found by the person who obtained the court injunction, and even less easily serve the injunction upon those node operators, and Boris from Vladisvostok prolly give exactly "no" fucks even if he was "served" say by email.
+
+Each node could (should?) give a helpful email address to which such "legal notices" can be emailed say
+
+  "You may email legal or bitching notices to IDGAF@dev.null.au For your grievance to be read by me, you MUST precisely and clearly state your grievance with this blog, the name of the blog, your full name and address for legal service, and the name of a police officer at your local police station.
+
+  Failure to provide the required details will cause your grievance to be ignored.
+
+  If your grievance is considered vexatious by me, a complaint may be filed against you with your local police officer, after I personally verify his or her station, name and rank.
+
+  If expressing your grievance fails to improve your feelz, consider literally screaming at the sky for that hearty cathartic experience that only a good scream and a cry can give you."
+
+
+
+One way blog" is just a concept, arising from the search for a solution to the problem of court injunctions against the publishing of certain classes of information, after the fact of such information having already been published - so, routing around the problem of court injunctions.
+
+Most such information is closely tied to actual people, and anything but anonymous. Even the publishing of such information is not anonymous, before the existence of an injunction against that publishing.
+
+Most folks who publish such "this person is a bitch" information, before any injunction is against their publishing of that information, are often times the only person with relevant motivation to publish such information publicly - so, once an inunction orders them to remove all instances of that information from their blog, website etc, then there's a very good chance that ready access to that information is no longer. And further, that even locating that information (say, by someone who "read it once a few years ago, and really wants it right now", is difficult to "for the average person, impossible".
+
+This concept could also be considered "wikileaks for information that governments don't care about, only small time individuals" - ha, so it could be called "minileaks" :)
+
+Evil hides (and often continues) in darkness. "Let's bring a little light to the small shitty stuff, when individuals are motivated to so expose."
+
+At a community level, exposing shitty stuff, and having the exposure persist over time, may have useful effects.
+

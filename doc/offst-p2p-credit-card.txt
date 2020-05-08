@@ -1,0 +1,25 @@
+From: realcr <realcr@gmail.com>
+To: cypherpunks@cpunks.org
+Date: Tue, 11 Feb 2020 23:07:26 +0200
+Subject: A plan for Offst mobile app
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+Hey, Offst is a digital credit card, powered by trust between people. It is
+an open source project, licensed under AGPL3.
+
+So far the main development on Offst was focused on designing a reasonable
+open protocol, and on developing the core parts of Offst. One thing that
+was neglected was a good graphical user interface.
+
+I recently began on figuring out what an Offst mobile app would look like,
+and so I sketched an initial draft for what the user flow should look like.
+You can find it here:
+
+https://www.freedomlayer.org/offst/mobile-app-plan/
+
+Any ideas are highly appreciated!
+
+Some other quick links:
+
+Offst's repository: https://github.com/freedomlayer/offst
+Previous posts on Offst's blog: https://www.freedomlayer.org/offst/

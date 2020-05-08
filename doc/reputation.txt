@@ -1,0 +1,27 @@
+From: coderman <coderman@protonmail.com>
+To: "Punk-Stasi 2.0" <punks@tfwno.gf>
+Cc: "cypherpunks@lists.cpunks.org" <cypherpunks@lists.cpunks.org>
+Reply-To: coderman <coderman@protonmail.com>
+Date: Sun, 22 Dec 2019 21:48:23 +0000
+Subject: Re: California Penal Code 12355 - importance of reputation in fully
+ decentralized networks
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+
+‐‐‐‐‐‐‐ Original Message ‐‐‐‐‐‐‐
+On Saturday, December 21, 2019 9:29 PM, Punk-Stasi 2.0 <punks@tfwno.gf> wrote:
+> ... If you lend $10 to guy and he doesn't pay back then you don't lend him anymore. Furthermore, it only cost you $10 to learn that the guy isn't trustable.
+
+
+way back when, i wrote a decentralized resource discovery protocol. key to this design was the concept of reputation among peers, and peer discovery weighted by reputation.
+
+providing communication was a lightweight UDP protocol that could support tens of thousands of concurrent connections with minimal memory overhead and a single UDP socket.
+
+by building peer reputation directly among a very large peer group, you developed a deep basis for ranking peers useful to you in the past, and likely to be useful in the future.
+
+likewise, the useful peers of my useful peers are likely to be useful to me, and thus the recommendation engine proceeds...
+
+rich reputation in decentralized networks is still a poorly explored space. this should change! :)
+
+
+best regards,

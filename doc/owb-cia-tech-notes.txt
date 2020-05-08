@@ -1,0 +1,194 @@
+From: coderman <coderman@protonmail.com>
+To: John Young <jya@pipeline.com>
+Cc: "cypherpunks@cpunks.org" <cypherpunks@cpunks.org>
+Reply-To: coderman <coderman@protonmail.com>
+Date: Tue, 18 Feb 2020 18:59:51 +0000
+Subject: [OBORONA-SPAM] Re: git based dark web (Tor) "one way" blog/ document
+ dump/ wordpress? - addendum: CIA technology notes
+List-Id: The Cypherpunks Mailing List <cypherpunks.lists.cpunks.org>
+
+
+‐‐‐‐‐‐‐ Original Message ‐‐‐‐‐‐‐
+On Thursday, February 13, 2020 10:59 AM, John Young <jya@pipeline.com> wrote:
+...
+> https://documentcloud.org/documents/6775056-20200211.htm (pages 20-21)
+
+https://www.documentcloud.org/notes/print?docs[]=6775056
+
+ 20200211
+206 Pages - Contributed by Alexa O'Brien, Alexa O'Brien Investigations - Feb 12, 2020
+4/20/2016 5:30 PM Lazy Snapshot Back Up (p. 3)
+
+4/20/16 Revert to 4/16/16 5:35 pm (p. 3)
+
+March 3, 2016 BU was last accessed April 20, 2016 05:43 PM (p. 4)
+
+VMware-8.log created April 16, 2016 5:42 pm (p. 5)
+
+Confluence log 4/20/16 They changed admin permissions, SSH keys; VMware-9.log and Vmware.log are 4/20/16 10:38 PM (p. 5)
+
+Schulte (according to US crim theory deletes logs) (p. 5)
+
+VMware-9 and VMware audit user activity on DevLAN 6:51 PM deleted (p. 6)
+
+Schulte DevLAN logs 4/20/16 6:51 PM Revert to BU (p. 7)
+
+4/20/16 6:55 pm Confirm delete (p. 9)
+
+5/26/16 12:39 PM Schulte asking for admin priv within Stash for Brutal Kangaroo (p. 11)
+
+Dave talked to Leonis immediately after then reviewed the audit log week or two after (p. 12)
+
+Schulte was a problem on Brutal Kangaroo; Dave was told to remove all admins with access, make Leonis only one with access (p. 13)
+
+3/7/17 DevLAN disabled to protect for FBI (p. 14)
+
+Defense on what access means... (p. 17)
+
+Per defense, Dave told FBI not to much logging turned on (p. 22)
+
+'did not traverse the Internet' (p. 27)
+
+'running thru CIA infrastructure and other private facilities' (p. 27)
+
+didn't track netflow (p. 33)
+
+May 2017 Dave interview FBI (p. 39)
+
+Hard Drive that Dave had put stash on; he doesn't remember if he wiped; and he doesn't know where the HD is (p. 40)
+
+Dave tells FBI three ways the data could have been downloaded. (p. 41)
+
+Missing logs Jan. 14 to April 21 2016 (p. 55)
+
+Logs only kept 30 days (p. 56)
+
+deleted CIFS share March 2017 (month of leak) (p. 68)
+
+Jira folder modified April 13, 2016 (p. 74)
+
+Defense: anyone who had access to Jira could have copied any file from Altabackup (p. 75)
+
+Redirect of dave denton (p. 78)
+
+Not everyone who had access to Jira app had access to server (p. 78)
+
+DevLAN account didn't give access to vSphere (p. 82)
+
+Start of Patrick Leedom direct (p. 87)
+
+works at MITRE (p. 88)
+
+he is lead cybersecurity engineer for FBI at MITRE (p. 88)
+
+technical analysis unit (p. 89)
+
+cyber division of FBI (p. 89)
+
+FBI cyber action team (CAT) (p. 89)
+
+Harold Martin (p. 94)
+
+US offers Leedom as expert in digital forensics and cop science; defense objects wants to VOIR DIRE (p. 99)
+
+Leedom started March.early April 2017 (p. 104)
+
+first part of forensic investigation was determining if there were nation-state hacking attempts; malware (p. 105)
+
+US crim theory of theft (p. 106)
+
+all confluence data disclosed by WikiLeaks March 7, 2017 (p. 107)
+
+March 3 backup files disclosed on WikiLeaks (p. 107)
+
+Confluence wiki (p. 115)
+
+stash, bamboo, jira software development package (p. 115)
+
+stash (p. 115)
+
+bamboo, continuous integration platform (p. 115)
+
+jira, issue tracker (p. 116)
+
+crowd, atlassian to windows active directory (p. 116)
+
+confluence & bamboo are virtual machines running on ESXi server (p. 116)
+
+stash & crowd running on physical Stash server; jira running on physical Hickok server (p. 117)
+
+netapp server (p. 118)
+
+netapp server-- home directories; altabackup share store Atlassian services & BU; method for delivering completed tools (p. 119)
+
+200 users as of April 2016 (p. 122)
+
+Schulte did not have access to admin folders on netapp (p. 128)
+
+schulte activity retrieved from unallocated spaces (p. 137)
+
+unallocated space log (p. 139)
+
+Oct. 27 2016 (Schulte last log on to DevLan) (p. 143)
+
+Log file VWare April 12, 2016 (p. 144)
+
+Log in thru v-Sphere on ESXi server April 15 2016 (p. 145)
+
+April 4 2016 Brutal Kangaroo (p. 157)
+
+Schulte DevLAN April 15, 2016 (p. 159)
+
+Leedom testifies about US theory of theft forensic case... (p. 160)
+
+ESXI Log file April 15 2016 3:36 pm Schule user account (p. 161)
+
+Schulte attempting to create datastore April 15 3:47 PM (p. 164)
+
+auth.log April 15 2016 Schulte IP on DevLAN 3:38 PM (p. 168)
+
+fingerprint matches (p. 170)
+
+no evidence of ESXi session closing until repurposed 4/25 (p. 172)
+
+another session ESXi Weber 4/16 open to change root password and closed 4/18 (p. 172)
+
+Schulte logged in as admin ESXi April 15 3:39, no evidence of close out (p. 173)
+
+know he ran these commands after April 15 (p. 173)
+
+root@OSB (p. 174)
+
+April 16 password change on DevLAN on Atlassian products and ESXi server (p. 175)
+
+Defendant account that created the key pair (p. 175)
+
+That is the key used to log into April 15 (p. 176)
+
+Rufus pub/private key in defendant's home directory (p. 178)
+
+US theory Schulte deleted snapshot 3 of 4 (p. 179)
+
+US theory Schulte used private key to log into Confluence using SSH (p. 182)
+
+After April 16, 2016 (p. 183)
+
+4/16 Schulte changed root account pw (p. 186)
+
+Evidence of Schulte using admin access after 4/16 (p. 189)
+
+Admin changed, but not SSH (p. 190)
+
+Schulte activity on 4/18 (p. 192)
+
+deefendant's virtual machine attempted to log to Confluence on April 18 11:08 am over SSH failed. public key no longer available (p. 198)
+
+Another attempt at 11:13 am April 18 (p. 198)
+
+those were regular log in attempts thru v-Sphere (p. 198)
+
+host D file: log-in for user root from defendant's workstation IP into ESXi server thru sphere 4/18 11:12 am (p. 201)
+
+
+
+----- End forwarded message -----
